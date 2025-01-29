@@ -17,17 +17,21 @@ function comprar() {
 
     else {
         alert("no cuenta con saldo suficiente");
-        intentos ++;
-
-
+        intentos++;
 
 
     }
-while (pago);
 
-let numeros = ['10000'];
-let PrimerNumero = numeros.shift();
-console.log (PrimerNumero);
+
+    const numeros = ['10000', '20000', '30000'];
+    if (console.log(numeros[0, 1, 2])) {
+        alert("no tenemos cambio");
+        intentos++;
+    }
+
+    while (pago);
+
+
 
 }
 
