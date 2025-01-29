@@ -33,7 +33,7 @@ function comprar() {
 
 
     }
-
+while (pago);
 
 }
 
