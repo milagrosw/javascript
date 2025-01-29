@@ -5,21 +5,10 @@ function comprar() {
 
     let pesos = parseInt(prompt("¿Con cuánto va a abonar?"));
 
-    if (pesos = null) {
-        alert("no cuenta con saldo suficiente");
-
-
-    }
-
 
     if (pesos => 10000) {
         alert("puede realizar la compra");
         pago = false;
-
-
-
-
-
 
 
     }
@@ -28,12 +17,17 @@ function comprar() {
 
     else {
         alert("no cuenta con saldo suficiente");
+        intentos ++;
 
 
 
 
     }
 while (pago);
+
+let numeros = ['10000'];
+let PrimerNumero = numeros.shift();
+console.log (PrimerNumero);
 
 }
 
